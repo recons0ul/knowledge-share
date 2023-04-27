@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   background-color: #FEFCF3;
   color: #85586F;
-
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -18,6 +18,11 @@ nav ul {
 nav ul li {
   padding: 10px;
   list-style-type: none;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: 'Dancing Script', cursive;
 }
 
 hr {
@@ -42,14 +47,23 @@ hr {
 }
 
 .header-section img {
-  height: 30px;
+  height: 50px;
   margin: auto;
+}
+
+.content {
+  display: flex;
+  margin: 5vh 30vw;
+  line-height: 30px;
+
 }
 
 .images {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 50px;
+  margin: 0 10vw;
 }
 
 
